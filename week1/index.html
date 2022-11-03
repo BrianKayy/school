@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        /*
+        let DistanceTravelled = 150;
+        let TargetDistance = 350;
+        let DistanceToCover = TargetDistance- DistanceTravelled;
+        console.log(`you have driveb ${DistanceTravelled}km and you have ${DistanceToCover}km to go`);
+*/
+
+
+    function calculationRange(DistanceTravelled, TargetDistance){
+        console.log(`calculating Range`);
+
+        let DistanceToCover = TargetDistance-DistanceTravelled;
+        console.log(`you have driveb ${DistanceTravelled}km and you have ${DistanceToCover}km to go`);   
+
+    }
+
+
+    calculationRange(100, 500);
+    calculationRange(50, 250);
+    calculationRange(23, 46);
+    calculationRange(56, 120);
+
+
+
+    function calculationRange(DistanceTravelled, TargetDistance){
+        console.log(`calculating Range for ${TargetDistance} with ${DistanceTravelled} travelled`);
+
+        let DistanceToCover = TargetDistance-DistanceTravelled;
+        return DistanceToCover; 
+
+    }
+
+let DistanceToCover1 = 0;
+let DistanceToCover2 = 0;
+let DistanceToCover3 = 0;
+let DistanceToCover4 = 0;
+
+
+    DistanceToCover1 = calculationRange(100, 500);
+   DistanceToCover2 = calculationRange(50, 250);
+    DistanceToCover3 = calculationRange(23, 46);
+   DistanceToCover4 = calculationRange(56, 120);
+
+
+
+
+   console.log(`you have ${DistanceToCover1} to cover`);
+   console.log(`you have ${DistanceToCover2} to cover`);
+   console.log(`you have ${DistanceToCover3} to cover`);
+   console.log(`you have ${DistanceToCover4} to cover`);
+
+
+
+
+
+    function HumanYearsToDogYears( dogAge){
+    
+        
+        let Rate = 7;
+
+        let realAge = Rate * dogAge;
+        console.log(`my dog is ${realAge}`);
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    HumanYearsToDogYears(5);
+    HumanYearsToDogYears(6);
+    HumanYearsToDogYears(7);
+    HumanYearsToDogYears(8);
+    HumanYearsToDogYears(9);
+
+    function HumanYearsToCatYears( CatAge){
+        let Rate = 15;
+
+        let realCatAge = Rate * CatAge;
+
+    let message = `my cat is ${realCatAge} in cat years` 
+    console.log(`${message}`);
+
+}
+
+    HumanYearsToCatYears(5);
+    HumanYearsToCatYears(6);
+    HumanYearsToCatYears(7);
+    HumanYearsToCatYears(8);
+    HumanYearsToCatYears(9);
+
+    </script>
+</head>
+<body>
+    <h1>Hello World</h1>
+</body>
+</html>
+
+
+
+
