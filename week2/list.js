@@ -66,6 +66,31 @@ console.log(`${Dwarves}`);
     console.log(`the dwarves are ${dwarf}`);
 
 
+let dwarfBusHome = Dwarves.pop();
+console.log(`the first dwarf to leave is ${dwarfBusHome}`);
+console.log(`there're ${Dwarves.length} dwarves left` );
+dwarfBusHome = Dwarves.pop();
+console.log(`the second dwarf to leave is ${dwarfBusHome}`);
+console.log(`there're ${Dwarves.length} dwarves left` );
+dwarfBusHome = Dwarves.pop();
+console.log(`the third dwarf to leave is ${dwarfBusHome}`);
+console.log(`there're ${Dwarves.length} dwarves left` );
+dwarfBusHome = Dwarves.pop();
+console.log(`the fourth dwarf to leave is ${dwarfBusHome}`);
+console.log(`there're ${Dwarves.length} dwarves left` );
+dwarfBusHome = Dwarves.pop();
+console.log(`the fifth dwarf to leave is ${dwarfBusHome}`);
+console.log(`there're ${Dwarves.length} dwarves left` );
+dwarfBusHome = Dwarves.pop();
+console.log(`the sixth dwarf to leave is ${dwarfBusHome}`);
+console.log(`there're ${Dwarves.length} dwarves left` );
+dwarfBusHome = Dwarves.pop();
+console.log(`the seventh dwarf to leave is ${dwarfBusHome}`);
+console.log(`there're ${Dwarves.length} dwarves left` );
+dwarfBusHome = Dwarves.pop();
+console.log(`the Eigth dwarf to leave is ${dwarfBusHome}`);
+console.log(`there're ${Dwarves.length} dwarves left` );
+
 
 
 
