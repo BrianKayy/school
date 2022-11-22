@@ -27,6 +27,14 @@ function WriteDate() {
 
 }
 
+
+let fleet = [
+    {'mf': 'Nissan', 'model':'Navara', 'engine': 1.2, 'color':'Gray','type':'pickup'},
+    {'mf': 'Nissan', 'model':'Navara', 'engine': 1.2, 'color':'black','type':'pickup'},
+    {'mf': 'Nissan', 'model':'Navara', 'engine': 1.2, 'color':'blue','type':'pickup'}
+
+]
+
 function WriteFleet() {
     let element = document.getElementById("fleet");
 
