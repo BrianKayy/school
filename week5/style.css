@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#tableContainer{
+    margin-top: 20px;
+    display: flex;
+}
+
+
+td{
+    color: blue;
+}
+td,th{
+    
+    border: 1px solid red;
+    width: 130px;
+    height: 60px;
+    padding: 15px;
+}
